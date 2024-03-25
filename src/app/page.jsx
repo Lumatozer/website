@@ -166,7 +166,7 @@ export default function Home() {
                         <span className="text-[#eaeaea] font-[railroad] font-bold text-[90px] tracking-[0.02em] leading-[95px] whitespace-nowrap">TRANSFORMING</span>
                         <span className="text-[#eaeaea] font-[railroad] font-bold text-[90px] tracking-[0.02em] leading-[95px] whitespace-nowrap">DEV EXPERIENCE</span>
                     </div>
-                    <p className="text-white/[66%] text-[20px] w-[700px] font-normal">The team at Lumatozer is passionate about making blockchain development accessible and efficient for everyone. We understand the frustrations of complex setups and cumbersome coding. That"s why our platform is designed to streamline the process. Lumatozer provides intuitive tools, seamless integration, and unmatched accessibility.  This means you can ditch the tedious setups and focus on what truly matters: building innovative blockchain applications.</p>
+                    <p className="text-white/[66%] text-[20px] w-[700px] font-normal">The team at Lumatozer is passionate about making blockchain development accessible and efficient for everyone. We understand the frustrations of complex setups and cumbersome coding. That is why our platform is designed to streamline the process. Lumatozer provides intuitive tools, seamless integration, and unmatched accessibility.  This means you can ditch the tedious setups and focus on what truly matters: building innovative blockchain applications.</p>
                 </div>
 
                 <div className="w-full h-full flex flex-row items-end justify-end px-[7vw] pt-24 relative">

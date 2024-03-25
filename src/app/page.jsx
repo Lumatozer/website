@@ -54,10 +54,9 @@ export default function Home() {
                     <Image draggable={false} className="-mb-[2px] select-none" src={`/images/ltz_logo_primary.svg`} width={60} height={0} />
                 </div>
                 <div className="flex-1 flex justify-center h-full overflow-visible">
-                    <div className="flex-1 bg-white/[6.5%] border border-solid border-white/[10%] rounded-full overflow-visible flex justify-center items-center">
-                        {/* <Link></Link> */}
+                    {/* <div className="flex-1 bg-white/[6.5%] border border-solid border-white/[10%] rounded-full overflow-visible flex justify-center items-center">
                         <p className="font-medium">Coming Soon</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="flex-1 h-full overflow-visible flex justify-end">
                     <Button gradientFilled className="scale-[0.85]">Contact Us</Button>

@@ -24,6 +24,7 @@ export default function Home() {
                         ["Cylinder.png", "Toroid.png", "Cube.png"].map((item, ind) => {
                             return (
                                 <motion.div
+                                    key={ind}
                                     initial={{ y: 100, opacity: 0 }}
                                     animate={{
                                         y: 0,

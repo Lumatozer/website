@@ -68,7 +68,7 @@ export default function Home() {
                 <div className="flex flex-col items-center justify-center gap-[50px] flex-1">
                     <div className="flex flex-col items-center justify-center w-min">
                         <p className="text-[#eaeaea] font-[railroad] font-bold text-[110px] tracking-[0.02em] whitespace-nowrap">WEB3 DONE RIGHT</p>
-                        <p className="text-white/[66%] text-2xl flex-1 text-center font-normal">Lumatozer is a company where we work on building scalable solutions which are measurably sustainable for all consumers, developers, corporates and autonomous programs.</p>
+                        <p className="text-white/[66%] text-2xl flex-1 text-center font-normal">Lumatozer is a company where we work on scaling technologies to deliver measurably sustainable solutions for all consumers, developers, corporates and autonomous programs.</p>
                     </div>
                     <div className="flex flex-row items-center gap-[50px] overflow-visible">
                         <Button gradientFilled>Start Building</Button>
@@ -84,7 +84,7 @@ export default function Home() {
                         <span className="text-[#eaeaea] font-[railroad] font-bold text-[90px] tracking-[0.02em] leading-[95px] whitespace-nowrap">FASTER THAN</span>
                         <span className="text-[#eaeaea] font-[railroad] font-bold text-[90px] tracking-[0.02em] leading-[95px] whitespace-nowrap">ALL BLOCKCHAINS</span>
                     </div>
-                    <p className="text-white/[66%] text-[20px] w-[700px] font-normal">{`Lumatozer"s groundbreaking scaling technology leaves other blockchains in the dust. With our proprietary architectures and protocols, we"ve achieved speeds of up to 300,000 transactions per second (tps). Say goodbye to sluggish transactions and hello to lightning-fast speeds with Lumatozer.`}</p>
+                    <p className="text-white/[66%] text-[20px] w-[700px] font-normal">{`Lumatozer's groundbreaking scaling technology leaves other blockchains in the dust. With our proprietary architectures and protocols, we've achieved speeds of up to 300,000 transactions per second (tps). Say goodbye to sluggish transactions and hello to lightning-fast speeds with Lumatozer.`}</p>
                 </div>
 
                 <div className="flex-1 flex flex-row items-end justify-end px-[7vw] relative gap-10">
@@ -133,7 +133,7 @@ export default function Home() {
                         <span className="text-[#eaeaea] font-[railroad] font-bold text-[90px] tracking-[0.02em] leading-[95px] whitespace-nowrap">FINALITY BEFORE</span>
                         <span className="text-[#eaeaea] font-[railroad] font-bold text-[90px] tracking-[0.02em] leading-[95px] whitespace-nowrap">BLINK OF AN EYE</span>
                     </div>
-                    <p className="text-white/[66%] text-[20px] w-[700px] font-normal">Experience the velocity of our scaling technology. Our custom-built architectures and protocols propel our proper further than ever, achieving speeds of up to 300,000 transactions per second (tps). Secure your seat belts and experience seamless transactions and unparalleled efficiency with us.</p>
+                    <p className="text-white/[66%] text-[20px] w-[700px] font-normal">Experience the velocity of our scaling technology. Our custom-built architectures and protocols propel our blockchain further than ever, achieving speeds of up to 300,000 transactions per second (tps). Secure your seat belts and experience seamless transactions and unparalleled efficiency with us.</p>
                 </div>
 
                 <div className="w-full h-full flex flex-row items-end justify-end pt-[75px] relative">
@@ -149,7 +149,7 @@ export default function Home() {
                         <span className="text-[#eaeaea] font-[railroad] font-bold text-[90px] tracking-[0.02em] leading-[95px] whitespace-nowrap"><span className="">VENGINE</span> AND <span className="">VITALITY</span></span>
                     </div>
                     <p className="text-white/[66%] text-[20px] w-[700px] font-normal">Vitality, our custom-built language allows for smooth on-chain and cross-chain interaction + development experience. Vengine is our core engine behind our smart contracts which acts as a general engine for many languages.
-                        Vengine is a high-performance engine is built for speed and efficiency. Its unique design ensures every transaction and program runs flawlessly.
+                        Vengine is a high-performance engine built for speed and efficiency. Its unique design ensures every transaction and program runs flawlessly.
                         This combination delivers unmatched performance for every blockchain operation.</p>
                 </div>
 
@@ -190,14 +190,14 @@ export default function Home() {
                             <Image draggable={false} className="relative select-none w-1/3 rounded-full" src={`/images/kritarth_pfp.jpg`} width={500} height={0} />
                             <div className="flex flex-col items-center justify-center gap-[2px] flex-1">
                                 <p className="font-medium text-lg text-white/85">Kritarth Shankar</p>
-                                <p className="font-light text-sm text-white/50">President Cyber Security</p>
+                                <p className="font-light text-sm text-white/50">Chief Technology Officer</p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center gap-[10px] flex-1">
                             <Image draggable={false} className="relative select-none w-1/3 rounded-full" src={`/images/atharv_pfp.jpg`} width={500} height={0} />
                             <div className="flex flex-col items-center justify-center gap-[2px] flex-1">
                                 <p className="font-medium text-lg text-white/85">Atharv Varshney</p>
-                                <p className="font-light text-sm text-white/50">Chief Technology Officer</p>
+                                <p className="font-light text-sm text-white/50">Chief Operating Officer</p>
                             </div>
                         </div>
                     </div>

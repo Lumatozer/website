@@ -329,12 +329,12 @@ export default function AnimatedBlockFinality() {
 
 
     return (
-        <div className="flex w-full justify-end overflow-visible hue-rotate-[320deg] saturate-[1.2] brightness-105">
+        <div className="flex w-[35vw] max-w-[700px] justify-end overflow-visible hue-rotate-[320deg] saturate-[1.2] brightness-105">
 
             <div className="blockchainSVGOverlay"></div>
 
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" enable-background="new 0 0 2000 1200"
-                viewBox="823.9 273.3 608.1 437.7" width="35vw">
+                viewBox="823.9 273.3 608.1 437.7" width="100%">
 
                 <g>
                     <line fill="none" stroke="#FF4D6B" stroke-width="3.4927" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="986" y1="577" x2="1430.3" y2="315.4"></line>

@@ -1,5 +1,5 @@
-import { Montserrat } from 'next/font/google'
-import './globals.css'
+import { Montserrat } from 'next/font/google';
+import './globals.css';
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], variable: '--font-montserrat' })
 
@@ -11,7 +11,7 @@ export const metadata = {
         description: "Lumatozer - Web3 Done Right",
         type: "website",
         locale: "en_US",
-        image: "./images/OGImage.png"
+        img: "./images/OGImage.png"
     },
 }
 

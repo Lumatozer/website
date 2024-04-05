@@ -12,6 +12,7 @@ export const metadata = {
         type: "website",
         locale: "en_US"
     },
+    metadataBase: new URL("https://lumatozer.com/")
 }
 
 export default function RootLayout({ children }) {

@@ -6,6 +6,13 @@ const montserrat = Montserrat({ subsets: ['latin'], weight: ["100", "200", "300"
 export const metadata = {
     title: 'Lumatozer',
     description: 'Web3 Done Right',
+    openGraph: {
+        title: 'Lumatozer',
+        description: "Lumatozer - Web3 Done Right",
+        type: "website",
+        locale: "en_US",
+        image: "./images/OGImage.png"
+    },
 }
 
 export default function RootLayout({ children }) {
@@ -18,12 +25,6 @@ export default function RootLayout({ children }) {
                 <meta property="language" content="en" />
                 <meta property="docsearch:language" content="en" />
                 <meta name="robots" content="index, follow" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="website" />
-                <meta property="og:title" content="Lumatozer" />
-                <meta property="og:description" content="Lumatozer - Web3 Done Right" />
-
-                <meta property="og:image" content="./images/OGImage.png" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta property="twitter:title" content="Lumatozer" />

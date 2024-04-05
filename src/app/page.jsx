@@ -196,7 +196,7 @@ export default function Home() {
             </section>
 
             <div className="w-full flex justify-center py-6">
-                <Link href="https://discord.gg/pycHNFrF" target="_blank" className="text-sm text-white/50 font-light">Join Our Discord <span className="underline">Here</span> {`:)`}</Link>
+                <Link href="https://discord.gg/edVNmZT9BY" target="_blank" className="text-sm text-white/50 font-light">Join Our Discord <span className="underline">Here</span> {`:)`}</Link>
             </div>
 
         </main>

@@ -3,7 +3,7 @@ export default function AnimatedBlockFinality() {
     // return (
     //     <div className="flex overflow-visible hue-rotate-[320deg] saturate-[1.2] brightness-105">
     //         <div className="blockchainSVGOverlay"></div>
-    //         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="50vh" enable-background="new 0 0 2000 1200"
+    //         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="50vh" enableBackground="new 0 0 2000 1200"
     //             viewBox="981.9 273.3 450.1 343.7" className="blockchainSVG">
     //             <g className="transition [transform:translate3d(-320px,186px,0px)] animate-[appear_3s_infinite]">
     //                 <linearGradient id="SVGID_49_" x1="1299.6068" x2="1361.6029" y1="-311.3163" y2="-344.4973"
@@ -329,16 +329,16 @@ export default function AnimatedBlockFinality() {
 
 
     return (
-        <div className="flex w-[35vw] max-w-[700px] justify-end overflow-visible hue-rotate-[320deg] saturate-[1.2] brightness-105">
+        <div className="flex w-[50vw] sm:w-[35vw] max-w-[700px] justify-end overflow-visible hue-rotate-[320deg] saturate-[1.2] brightness-105">
 
             <div className="blockchainSVGOverlay"></div>
 
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" enable-background="new 0 0 2000 1200"
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" enableBackground="new 0 0 2000 1200"
                 viewBox="823.9 273.3 608.1 437.7" width="100%">
 
                 <g>
-                    <line fill="none" stroke="#FF4D6B" stroke-width="3.4927" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="986" y1="577" x2="1430.3" y2="315.4"></line>
-                    <line className="transition animate-[connectBlock_3s_infinite]" fill="none" stroke="#FF4D6B" stroke-width="3.4927" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="986" y1="577" x2="954" y2="598"></line>
+                    <line fill="none" stroke="#FF4D6B" strokeWidth="3.4927" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" x1="986" y1="577" x2="1430.3" y2="315.4"></line>
+                    <line className="transition animate-[connectBlock_3s_infinite]" fill="none" stroke="#FF4D6B" strokeWidth="3.4927" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" x1="986" y1="577" x2="954" y2="598"></line>
                 </g>
 
                 <g className="transition [transform:translate3d(-477px,282px,0px)] animate-[appear_3s_infinite]">

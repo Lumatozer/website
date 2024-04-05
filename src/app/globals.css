@@ -41,8 +41,8 @@
       rgba(212, 44, 254, 0.75) 10.38%,
       rgba(255, 40, 156, 0.75) 100%
     );
-  --heading-size: 90px;
-  --sub-heading-p-size: 20px;
+  --heading-size: 45px;
+  --sub-heading-p-size: 12.5px;
 }
 
 div,
@@ -199,7 +199,54 @@ body {
   background: linear-gradient(193deg, black, transparent 18%);
 }
 
+@media (min-width: 0px) {
+  :root {
+    --heading-size: 45px;
+    --sub-heading-p-size: 12.5px;
+  }
+  .gradientFilledBtn {
+    border-radius: 10px;
+  }
+  .gradientOutlinedBtn {
+    border-radius: 10px;
+  }
+  .gradientOutlinedBtn::before {
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+}
+@media (min-width: 640px) {
+  :root {
+    --heading-size: 45px;
+    --sub-heading-p-size: 12.5px;
+  }
+  .gradientFilledBtn {
+    border-radius: 10px;
+  }
+  .gradientOutlinedBtn {
+    border-radius: 10px;
+  }
+  .gradientOutlinedBtn::before {
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+}
 @media (min-width: 768px) {
+  :root {
+    --heading-size: 55px;
+    --sub-heading-p-size: 15px;
+  }
+  .gradientFilledBtn {
+    border-radius: 12px;
+  }
+  .gradientOutlinedBtn {
+    border-radius: 12px;
+  }
+  .gradientOutlinedBtn::before {
+    border-radius: 12px;
+  }
+}
+@media (min-width: 1024px) {
   :root {
     --heading-size: 70px;
     --sub-heading-p-size: 17.5px;
